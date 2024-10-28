@@ -1,0 +1,131 @@
+body{ background-image: linear-gradient(#00AD97, #148A76, #57DBC4, #2E665E );
+    font-family: 'android'  Arial, Helvetica, sans-serif;
+   background-attachment: fixed;
+   }
+
+   @font-face {
+    font-family: 'android';
+    src: url(android.otf)format(opentype);
+   }
+
+
+   main{   background-color: white;
+    width:1000px;
+    height:auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+   }
+
+.cabecalho{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+   
+}
+
+.subtitulo{
+    color: rgb(238, 231, 231);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 50px;
+    text-align: center;
+}
+
+header{
+    background-image: linear-gradient(#27411A, #4E6730, #528a38,#549d4bd5 );
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    
+    ;
+}
+
+.menu{
+    display:inline-block;
+    text-align: left;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: bold;
+}
+
+
+.introducao{ text-align: center;
+    font-size: 30px;
+   
+    color: #046d01;
+    font-family: 'android', Arial, Helvetica, sans-serif;
+
+}
+
+.texto1{
+    text-indent: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+   
+    }
+.titulo{
+    color: #046d01;
+    background-color: #81d958c1;
+    text-align: center;
+
+    font-family: 'android', Arial, Helvetica, sans-serif;
+    
+    font-size: 30pxpx;
+}    
+
+.imagem{ display: block;
+    margin: 0 auto; }
+    
+
+.video{
+    
+    margin: 0 auto;
+    display: block;
+    background-color: #046d01;
+}  
+
+div#lista{ background-color: rgba(21, 184, 151, 0.581);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    text-indent: 5%;
+    
+}
+
+div#lista > p#aprender{
+    color: white;
+    font-weight: bold;
+    background-color: #185936;
+    padding: 10px;
+    margin-left: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+
+div{
+    display: inline-block;
+    padding: 5px;
+    text-indent: 5%;
+
+}
+
+
+
+
+
+
+li:hover{
+    color: red;
+    font-weight: bold;
+}
+
+a{
+    color: black;
+}
